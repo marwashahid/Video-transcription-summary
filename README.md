@@ -2,6 +2,8 @@
 
 In this project, I have:
 
--used Whisper AI to transcribe videos/audios
--used T5 model from hugging face for summarization of transcription
--used streamlit for frontend
+<ol>
+<li>used Whisper AI to transcribe videos/audios</li>
+<li>used T5 model from hugging face for summarization of transcription</li>
+<li>used streamlit for frontend</li>
+</ol>
