@@ -1,5 +1,5 @@
 import streamlit as st
-import whisper
+import openai-whisper
 import os
 # Use a pipeline as a high-level helper
 from transformers import pipeline
