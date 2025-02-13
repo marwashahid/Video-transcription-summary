@@ -1,12 +1,12 @@
 import streamlit as st
-import openai-whisper
+import whisper
 import os
 # Use a pipeline as a high-level helper
 from transformers import pipeline
 
 
 # Load the Whisper model
-model = openai-whisper.load_model("base")
+model = whisper.load_model("base")
 
 st.title("Audio Transcriber")
 st.write("Upload your audio file to get a transcription and audio summary.")
