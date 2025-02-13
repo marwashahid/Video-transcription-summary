@@ -6,7 +6,7 @@ from transformers import pipeline
 
 
 # Load the Whisper model
-model = whisper.load_model("base")
+model = openai-whisper.load_model("base")
 
 st.title("Audio Transcriber")
 st.write("Upload your audio file to get a transcription and audio summary.")
